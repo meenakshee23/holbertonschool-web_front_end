@@ -437,6 +437,8 @@ a {
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
 
+    --nav-item-link-hover: var(--color-primary);
+    
 
 }
 
