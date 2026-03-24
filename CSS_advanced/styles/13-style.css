@@ -20,6 +20,7 @@
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
+  --font-weight-regular: 400;
 }
 
 html {
@@ -35,20 +36,20 @@ body {
   line-height: var(--line-height-base);
 }
 
-a {
+a[href]:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a:visited {
+a[href]:visited {
   font-style: italic;
 }
 
-a:hover {
+a[href]:hover {
   text-decoration: underline;
 }
 
-a:active {
+a[href]:active {
   background-color: var(--color-light-grey);
 }
 
