@@ -569,7 +569,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-services a {
   display: block;
-  padding: calc(2 * 1rem);
+  padding: 2rem;
   background-color: var(--color-light-grey);
   text-decoration: none;
 }
